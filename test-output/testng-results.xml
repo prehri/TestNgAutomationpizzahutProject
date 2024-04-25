@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="19" passed="19" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-25T16:06:23 IST" name="Suite" finished-at="2024-04-25T16:06:43 IST" duration-ms="19865">
+    <groups>
+    </groups>
+    <test started-at="2024-04-25T16:06:23 IST" name="Test" finished-at="2024-04-25T16:06:43 IST" duration-ms="19865">
+      <class name="testcase.HomeTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcase.HomeTest@5f9be66c]" started-at="2024-04-25T16:06:20 IST" name="setup" finished-at="2024-04-25T16:06:23 IST" duration-ms="2822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="seturl(java.lang.String,java.lang.String)[pri:1, instance:testcase.HomeTest@5f9be66c]" started-at="2024-04-25T16:06:24 IST" name="seturl" data-provider="urlData" finished-at="2024-04-25T16:06:28 IST" duration-ms="3866" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[url]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.pizzahut.co.in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seturl -->
+        <test-method signature="setuserlocation()[pri:2, instance:testcase.HomeTest@5f9be66c]" started-at="2024-04-25T16:06:28 IST" name="setuserlocation" finished-at="2024-04-25T16:06:30 IST" duration-ms="1686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setuserlocation -->
+        <test-method signature="dealpagetxt()[pri:3, instance:testcase.HomeTest@5f9be66c]" started-at="2024-04-25T16:06:30 IST" name="dealpagetxt" finished-at="2024-04-25T16:06:32 IST" duration-ms="2000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dealpagetxt -->
+        <test-method signature="sidemenubar()[pri:4, instance:testcase.HomeTest@5f9be66c]" started-at="2024-04-25T16:06:32 IST" name="sidemenubar" finished-at="2024-04-25T16:06:33 IST" duration-ms="917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sidemenubar -->
+        <test-method signature="comparevalue()[pri:5, instance:testcase.HomeTest@5f9be66c]" started-at="2024-04-25T16:06:33 IST" name="comparevalue" finished-at="2024-04-25T16:06:34 IST" duration-ms="940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- comparevalue -->
+        <test-method signature="checkoutbtn()[pri:6, instance:testcase.HomeTest@5f9be66c]" started-at="2024-04-25T16:06:34 IST" name="checkoutbtn" finished-at="2024-04-25T16:06:34 IST" duration-ms="456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutbtn -->
+        <test-method signature="drinksbtn()[pri:7, instance:testcase.HomeTest@5f9be66c]" started-at="2024-04-25T16:06:34 IST" name="drinksbtn" finished-at="2024-04-25T16:06:35 IST" duration-ms="699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- drinksbtn -->
+        <test-method signature="addtwodrink()[pri:8, instance:testcase.HomeTest@5f9be66c]" started-at="2024-04-25T16:06:35 IST" name="addtwodrink" finished-at="2024-04-25T16:06:36 IST" duration-ms="1218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtwodrink -->
+        <test-method signature="checkoutbuttonvalidation()[pri:9, instance:testcase.HomeTest@5f9be66c]" started-at="2024-04-25T16:06:36 IST" name="checkoutbuttonvalidation" finished-at="2024-04-25T16:06:37 IST" duration-ms="772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutbuttonvalidation -->
+        <test-method signature="paymentbutton()[pri:10, instance:testcase.HomeTest@5f9be66c]" started-at="2024-04-25T16:06:37 IST" name="paymentbutton" finished-at="2024-04-25T16:06:37 IST" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentbutton -->
+        <test-method signature="paymentcash()[pri:11, instance:testcase.HomeTest@5f9be66c]" started-at="2024-04-25T16:06:37 IST" name="paymentcash" finished-at="2024-04-25T16:06:37 IST" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentcash -->
+        <test-method signature="agreecheckbox()[pri:12, instance:testcase.HomeTest@5f9be66c]" started-at="2024-04-25T16:06:37 IST" name="agreecheckbox" finished-at="2024-04-25T16:06:37 IST" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- agreecheckbox -->
+        <test-method signature="nameemailinput()[pri:13, instance:testcase.HomeTest@5f9be66c]" started-at="2024-04-25T16:06:37 IST" name="nameemailinput" finished-at="2024-04-25T16:06:38 IST" duration-ms="1036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nameemailinput -->
+        <test-method signature="Applygiftlink()[pri:14, instance:testcase.HomeTest@5f9be66c]" started-at="2024-04-25T16:06:38 IST" name="Applygiftlink" finished-at="2024-04-25T16:06:40 IST" duration-ms="1278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Applygiftlink -->
+        <test-method signature="Voucherlink()[pri:15, instance:testcase.HomeTest@5f9be66c]" started-at="2024-04-25T16:06:40 IST" name="Voucherlink" finished-at="2024-04-25T16:06:40 IST" duration-ms="455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Voucherlink -->
+        <test-method signature="VoucherInputcode()[pri:16, instance:testcase.HomeTest@5f9be66c]" started-at="2024-04-25T16:06:40 IST" name="VoucherInputcode" finished-at="2024-04-25T16:06:41 IST" duration-ms="616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VoucherInputcode -->
+        <test-method signature="ErrorMessage()[pri:17, instance:testcase.HomeTest@5f9be66c]" started-at="2024-04-25T16:06:41 IST" name="ErrorMessage" finished-at="2024-04-25T16:06:42 IST" duration-ms="1034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ErrorMessage -->
+        <test-method signature="closepopupvoucher()[pri:18, instance:testcase.HomeTest@5f9be66c]" started-at="2024-04-25T16:06:42 IST" name="closepopupvoucher" finished-at="2024-04-25T16:06:42 IST" duration-ms="417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closepopupvoucher -->
+        <test-method signature="basket()[pri:19, instance:testcase.HomeTest@5f9be66c]" started-at="2024-04-25T16:06:42 IST" name="basket" finished-at="2024-04-25T16:06:43 IST" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basket -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcase.HomeTest@5f9be66c]" started-at="2024-04-25T16:06:43 IST" name="tearDown" finished-at="2024-04-25T16:06:44 IST" duration-ms="436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcase.HomeTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

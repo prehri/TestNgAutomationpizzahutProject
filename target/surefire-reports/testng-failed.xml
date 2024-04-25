@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="testcase.HomeTest">
+        <methods>
+          <include name="addtwodrink"/>
+          <include name="paymentbutton"/>
+          <include name="tearDown"/>
+          <include name="paymentcash"/>
+          <include name="Voucherlink"/>
+          <include name="nameemailinput"/>
+          <include name="agreecheckbox"/>
+          <include name="basket"/>
+          <include name="ErrorMessage"/>
+          <include name="comparevalue"/>
+          <include name="setup"/>
+          <include name="VoucherInputcode"/>
+          <include name="Applygiftlink"/>
+          <include name="checkoutbuttonvalidation"/>
+          <include name="closepopupvoucher"/>
+        </methods>
+      </class> <!-- testcase.HomeTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

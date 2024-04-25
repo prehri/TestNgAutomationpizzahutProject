@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PizzaSuite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="listeners.MyListerners"/>
+  </listeners>
+  <test thread-count="5" name="HomeTest(failed)">
+    <parameter name="author" value="preeti"/>
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="testcase.HomeTest">
+        <methods>
+          <include name="dealpagetxt"/>
+          <include name="nameemailinput"/>
+          <include name="paymentbutton"/>
+          <include name="tearDown"/>
+          <include name="Voucherlink"/>
+          <include name="paymentcash"/>
+          <include name="setup"/>
+          <include name="agreecheckbox"/>
+          <include name="basket"/>
+          <include name="setuserlocation"/>
+          <include name="closepopupvoucher"/>
+          <include name="comparevalue"/>
+          <include name="ErrorMessage"/>
+          <include name="drinksbtn"/>
+          <include name="checkoutbuttonvalidation"/>
+          <include name="checkoutbtn"/>
+          <include name="sidemenubar"/>
+          <include name="Applygiftlink"/>
+          <include name="VoucherInputcode"/>
+          <include name="addtwodrink"/>
+        </methods>
+      </class> <!-- testcase.HomeTest -->
+    </classes>
+  </test> <!-- HomeTest(failed) -->
+</suite> <!-- Failed suite [PizzaSuite] -->

@@ -1,0 +1,4 @@
+# Created at 2024-04-25T16:27:49.609
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Preeti\Eclips Backup\Backup_250424\AutomationlPizzahutproject\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+
